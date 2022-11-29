@@ -1,7 +1,7 @@
 import "./App.css";
 import movies from "./movies.json";
 
-function Card({ image, title, subtitle, description }) {
+function Card({ image, title, subtitle, description }: any) {
   return (
     <div className="card">
       <div
